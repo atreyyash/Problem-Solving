@@ -18,13 +18,12 @@ int getSum(int b, int n1, int n2){
         
         int d = d1 + d2 + c;
         c = d / b;
-        d = d / b;
+        d = d % b;
         
         rv += d*p;
         p = p * 10;
     }
-}
-    
+	return rv;
 }
 
 
