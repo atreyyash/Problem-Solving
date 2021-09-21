@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Main{
     
     public static boolean isPalindrome(String s)
 	{
